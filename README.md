@@ -62,19 +62,19 @@ START
     DISPLAY "Enter radius: "
     INPUT radius
     
-    // Calculate the different values
+    // This uses the different formulas required by each value
     SET area TO pi * (radius squared)
     SET circ TO 2 * pi * radius
     SET sqrt TO SQUARE_ROOT(area)
     SET rounded_down TO ROUND_DOWN(area)
     SET rounded_up TO ROUND_UP(area)
     
-    // Output the calculated results rounded to 2 decimal places
-    DISPLAY "Area of the garden: ", area, " square meters"
-    DISPLAY "Circumference of the garden: ", circ, " meters"
-    DISPLAY "Square root of the area: ", sqrt
-    DISPLAY "Area rounded down: ", rounded_down, " square meters"
-    DISPLAY "Area rounded up: ", rounded_up, " square meters"
+    // Output the calculated outputs
+    DISPLAY "Area of the garden: ",area, " square meters"
+    DISPLAY "Circumference of the garden: ",circ, " meters"
+    DISPLAY "Square root of the area: ",sqrt
+    DISPLAY "Area rounded down: ",rounded_down, " square meters"
+    DISPLAY "Area rounded up: ",rounded_up, " square meters"
 
 END
 
