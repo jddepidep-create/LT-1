@@ -54,7 +54,7 @@ rounded_down
 rounded_up
 
 ## Algorithm Development
-## PSEUDO CODE
+## PSEUDO CODE ( python to pseudo code converter used, Sir you allowed this. )
 
 START
     
@@ -62,7 +62,7 @@ START
     DISPLAY "Enter radius: "
     INPUT radius
     
-    // Calculate the different geometric and math values
+    // Calculate the different values
     SET area TO pi * (radius squared)
     SET circ TO 2 * pi * radius
     SET sqrt TO SQUARE_ROOT(area)
